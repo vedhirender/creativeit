@@ -64,4 +64,27 @@ h1, h2 {font-size:30px;font-weight:700;}
 /*copyright*/
 .ccopyright{background:#028276;color:#00d5c1;padding-top:25px;padding-bottom:25px;font-size:14px;}
 .ccopyright a{color:#00d5c1;}
-
+/*innerpage*/
+.cchecklist {margin:0; padding:0;}
+.cchecklist li {display:list-item; position:relative;list-style:none; padding-left:25px; line-height:28px; font-size:14px;}
+.cchecklist li::before {content: "\f00c";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit; color:#009587; font-size: 16px; padding-right: 0.5em; position: absolute; top: 0;left: 0;}
+.cmid_content_container {margin-bottom:95px;margin-top:85px;}
+.cmid_content_container h2 {font-size:30px;color:#009587; font-weight:600;}
+.cmid_content_container p {font-size:14px;}
+.cinner_banner {background-size:100%!important; min-height:345px; color:#fff; padding-top:50px; padding-bottom:50px;}
+.cinner_banner h1 {font-size:35px;font-weight:700;}
+.cinner_banner h2 {font-size:20px;font-weight:400; max-width:520px; line-height:28px;min-height: 90px;}
+.cinner_banner .breadcrumb {background-color:inherit;color:#009587;padding-left:0px;margin-top:45px;}
+.cinner_banner .breadcrumb li{color:#009587;}
+.cinner_banner .breadcrumb li a {color:#fff;}
+.cform .cform-field {margin-top:20px;}
+.cform .cform-field label{color:#009587; font-size:14px; font-weight:400; margin-bottom:10px;}
+.cform .cform-field input[type=text], .cform .cform-field input[type=tel], .cform .cform-field input[type=password], .cform .cform-field textarea[type=text] {background:#f2f2f2; border-radius:0px; border:none; min-height:45px;}
+.cform .cform-field textarea[type=text] {min-height:150px;}
+.cform .cform-field input[type=submit] {background:#009587; color:#ffffff;}
+.cform .cform-field input[type=submit]:hover {background:#333; color:#ffffff;}
+/*about us*/
+.cabout_banner {background:url(../images/banner/about_us.jpg) no-repeat top left;}
+/*contact us*/
+.ccontact_banner {background:url(../images/banner/contact-us.jpg) no-repeat top left;}
+.ccontactdetail h4 {margin-top:30px;color:#009587; font-size:16px; font-weight:700; text-transform:uppercase;margin-bottom:0px;}
