@@ -3,6 +3,8 @@
 body {background:#fff;font-family: 'Raleway', sans-serif;font-size:14px; color:#333333; font-weight:400;}
 p{line-height:28px;font-size:14px;font-weight:400;color:#333333;}
 h1, h2 {font-size:30px;font-weight:700;}
+.cread_more {background: #009587; color: #ffffff}
+.cread_more:hover {background: #333; color: #ffffff; text-decoration:none;}
 /*header*/
 .cheader_top {background:#333333;color:#fff;padding-top:10px; padding-bottom:10px;}
 .cheader_top ul {margin:0;padding:0;}
@@ -69,7 +71,8 @@ h1, h2 {font-size:30px;font-weight:700;}
 .cchecklist li {display:list-item; position:relative;list-style:none; padding-left:25px; line-height:28px; font-size:14px;}
 .cchecklist li::before {content: "\f00c";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit; color:#009587; font-size: 16px; padding-right: 0.5em; position: absolute; top: 0;left: 0;}
 .cmid_content_container {margin-bottom:95px;margin-top:85px;}
-.cmid_content_container h2 {font-size:30px;color:#009587; font-weight:600;}
+.cmid_content_container h2 {font-size:24px;color:#009587; font-weight:600;}
+.cmid_content_container h2:first-child{margin-top:0px;}
 .cmid_content_container p {font-size:14px;}
 .cinner_banner {background-size:100%!important; min-height:345px; color:#fff; padding-top:50px; padding-bottom:50px;}
 .cinner_banner h1 {font-size:35px;font-weight:700;}
@@ -85,6 +88,14 @@ h1, h2 {font-size:30px;font-weight:700;}
 .cform .cform-field input[type=submit]:hover {background:#333; color:#ffffff;}
 /*about us*/
 .cabout_banner {background:url(../images/banner/about_us.jpg) no-repeat top left;}
+/*servces*/
+.listing_section {text-align:center; margin-top:30px;}
+.listing_section h3 {font-size:16px; font-weight:700;}
+.listing_section p.text_wrapper {font-size:14px; font-weight:400;height: 85px; overflow: hidden;}
+.clisting .clisting_inner {background:#f2f2f2; padding:20px 15px; margin-top:15px; margin-bottom:15px;}
+.cquestion_tabs .panel-group .panel .panel-heading {background-color:#f2f2f2;color:#333;font-size:16px;font-weight:500;}
+.cquestion_tabs .panel-group .panel:nth-child(odd) .panel-heading {background-color:#009587;color:#fff;}
+.cquestion_tabs .panel-group .panel .panel-heading .panel-title a:hover, .cquestion_tabs .panel-group .panel .panel-heading .panel-title a:focus {text-decoration:none;}
 /*contact us*/
 .ccontact_banner {background:url(../images/banner/contact-us.jpg) no-repeat top left;}
 .ccontactdetail h4 {margin-top:30px;color:#009587; font-size:16px; font-weight:700; text-transform:uppercase;margin-bottom:0px;}
