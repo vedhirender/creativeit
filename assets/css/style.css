@@ -89,10 +89,11 @@ h1, h2 {font-size:30px;font-weight:700;}
 /*about us*/
 .cabout_banner {background:url(../images/banner/about_us.jpg) no-repeat top left;}
 /*servces*/
-.listing_section {text-align:center; margin-top:30px;}
+.listing_section {text-align:center; margin-top:10px;}
 .listing_section h3 {font-size:16px; font-weight:700;}
 .listing_section p.text_wrapper {font-size:14px; font-weight:400;height: 85px; overflow: hidden;}
 .clisting .clisting_inner {background:#f2f2f2; padding:20px 15px; margin-top:15px; margin-bottom:15px;}
+.cquestion_tabs {margin-bottom:15px;}
 .cquestion_tabs .panel-group .panel .panel-heading {background-color:#f2f2f2;color:#333;font-size:16px;font-weight:500;}
 .cquestion_tabs .panel-group .panel:nth-child(odd) .panel-heading {background-color:#009587;color:#fff;}
 .cquestion_tabs .panel-group .panel .panel-heading .panel-title a:hover, .cquestion_tabs .panel-group .panel .panel-heading .panel-title a:focus {text-decoration:none;}
